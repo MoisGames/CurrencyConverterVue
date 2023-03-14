@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<convertCurrency/>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import convertCurrency from './components/convertCurrency.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    convertCurrency
   }
 }
 </script>
@@ -22,5 +22,10 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+body {
+  background-color: rgb(161, 21, 161);
+  background: url("../src/assets/background.jpg") repeat;
+  background-size: cover;
 }
 </style>
