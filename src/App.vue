@@ -11,7 +11,9 @@ export default {
   components: {
     convertCurrency
   }
+  
 }
+
 </script>
 
 <style>
